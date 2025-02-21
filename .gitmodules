@@ -1,0 +1,4 @@
+[submodule "sp1/zkvm-perf"]
+	path = sp1/zkvm-perf
+	url = https://github.com/brevis-network/zkvm-perf.git
+	branch = sync-test
