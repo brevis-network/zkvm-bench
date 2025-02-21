@@ -10,6 +10,7 @@ cd zkvm-perf
 if [ ! -d "../../logs" ]; then
   echo "Logs directory does not exist, creating it."
   mkdir -p ../../logs || { echo "Failed to create logs directory."; exit 1; }
+fi
 
 commands=(
   ./eval.sh fibonacci300kn risc0 poseidon 21 benchmark > ../../logs/risc0_f_300kn.log
