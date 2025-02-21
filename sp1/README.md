@@ -18,12 +18,13 @@
    cargo prove --version
    ```
 
-3. Install [Docker](https://docs.docker.com/engine/install/ubuntu/).
+3. Install [Go](https://go.dev/).
+
+4. Install [Docker](https://docs.docker.com/engine/install/ubuntu/).
 
 
 ## Benchmark
 
-Run run.sh to start the benchmark.
 To start the benchmark, make sure you are in the `zkvm-bench/sp1` directory and then run:
 
 ```
