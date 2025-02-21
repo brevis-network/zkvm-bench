@@ -1,10 +1,5 @@
 #!/bin/bash
 
-if [ ! -d "zkvm-perf" ]; then
-  echo "Error: risc0 zkvm-perf submodule does not exist. Please initialize and update the submodule."
-  exit 1
-fi
-
 cd zkvm-perf
 
 if [ ! -d "../../logs" ]; then
