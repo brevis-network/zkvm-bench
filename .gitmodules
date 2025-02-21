@@ -1,0 +1,8 @@
+[submodule "openvm/openvm-benchmark"]
+	path = openvm/openvm-benchmark
+	url = https://github.com/brevis-network/openvm-reth-benchmark.git
+	branch = zkvm-bench
+[submodule "pico/pico"]
+	path = pico/pico
+  # TODO: replace with public pico repo
+	url = git@github.com:brevis-network/brevis-vm.git
