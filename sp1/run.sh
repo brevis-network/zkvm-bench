@@ -22,3 +22,5 @@ done
 cp benchmarks/benchmarks_latest.csv ../../logs/sp1_bench.csv
 
 cd ..
+
+echo "sp1 benchmark complete!"

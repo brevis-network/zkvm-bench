@@ -22,3 +22,5 @@ done
 cp benchmarks/benchmarks_latest.csv ../../logs/risc0_bench.csv
 
 cd ..
+
+echo "risc0 benchmark complete!"

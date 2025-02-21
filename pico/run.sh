@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-mkdir -p pico_logs
+mkdir -p ../logs
 
 export CHUNK_SIZE=4194304
 export CHUNK_BATCH_SIZE=32
@@ -15,7 +15,7 @@ PROGRAMS=("fibonacci-300kn" "tendermint" "reth-17106222" "reth-20528709")
 pushd pico
 for prog in "${PROGRAMS[@]}"; do
   echo "Benchmarking $prog"
-  cargo run --profile perf --bin bench --features jemalloc --features nightly-features -- --programs $prog --field kb_vk >../pico_logs/$prog.log
+  cargo run --profile perf --bin bench --features jemalloc --features nightly-features -- --programs $prog --field kb_vk >../../logs/pico-$prog.log
 done
 popd
 
