@@ -1,6 +1,15 @@
 #!/bin/bash
 
+if [ ! -d "zkvm-perf" ]; then
+  echo "Error: sp1 zkvm-perf submodule does not exist. Please initialize and update the submodule."
+  exit 1
+fi
+
 cd zkvm-perf
+
+if [ ! -d "../../logs" ]; then
+  echo "Logs directory does not exist, creating it."
+  mkdir -p ../../logs || { echo "Failed to create logs directory."; exit 1; }
 
 commands=(
   "./eval.sh fibonacci300kn sp1 poseidon 21 benchmark  > ../../logs/sp1-fibo-300kn.log"
