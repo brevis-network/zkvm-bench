@@ -6,3 +6,11 @@
 	path = pico/pico
   # TODO: replace with public pico repo
 	url = git@github.com:brevis-network/brevis-vm.git
+[submodule "sp1/zkvm-perf"]
+	path = sp1/zkvm-perf
+	url = https://github.com/brevis-network/zkvm-perf.git
+	branch = sync-test
+[submodule "risc0/zkvm-perf"]
+	path = risc0/zkvm-perf
+	url = https://github.com/brevis-network/zkvm-perf.git
+	branch = risc0-bench
