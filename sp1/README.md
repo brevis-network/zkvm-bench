@@ -1,4 +1,4 @@
-# This project is for benchmarking sp1 v4.0.1
+# SP1 v4.0.1 Benchmarks
 
 ## Prerequisites
 

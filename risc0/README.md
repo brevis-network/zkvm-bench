@@ -1,4 +1,4 @@
-# This project is for benchmarking risc0 v1.2.1
+# RISC0 v1.2.1 Benchmarks
 
 ## Prerequisites
 1. Install Rust:
