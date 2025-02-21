@@ -2,3 +2,7 @@
 	path = sp1/zkvm-perf
 	url = https://github.com/brevis-network/zkvm-perf.git
 	branch = sync-test
+[submodule "risc0/zkvm-perf"]
+	path = risc0/zkvm-perf
+	url = https://github.com/brevis-network/zkvm-perf.git
+	branch = risc0-bench
