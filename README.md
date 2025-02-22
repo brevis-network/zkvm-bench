@@ -2,9 +2,9 @@
 
 This repository provides instructions for benchmarking four zkVMs: RISC0, OpenVM, SP1, and Pico.
 
-Our initial benchmarks —- detailed in our [blog post](https://blog.brevis.network/2025/02/11/introducing-pico-a-modular-and-performant-zkvm/) -— present an apple-to-apple comparison by running each zkVM on identical hardware (`r7a.x48large`), compiling the same Rust program, and executing without compiler acceleration or custom parameters. This consistent approach was applied across all zkVMs, including Pico, ensuring fairness.
+Our initial benchmarks -— detailed in our [blog post](https://blog.brevis.network/2025/02/11/introducing-pico-a-modular-and-performant-zkvm/) -- compare all zkVMs under identical conditions: the same hardware (r7a.x48large), the same Rust program, and execution without compiler acceleration or custom parameters. This ensures a fair, apple-to-apple comparison, including for Pico.
 
-While these results effectively showcase each zkVM's capabilities, we recognize that teams behind these VMs may prefer optimized settings. We hereby offer benchmarks configured to each zkVM's strengths. For RISC0 and SP1, we use settings from their [`zkvm-perf`](https://github.com/succinctlabs/zkvm-perf) repository, and for OpenVM, we use settings from the [`openvm-reth-benchmark`](https://github.com/axiom-crypto/openvm-reth-benchmark) repository. This approach allows each zkVM to demonstrate its best possible performance on CPU.
+Recognizing that teams may favor optimized settings, we also provide benchmarks tuned to each zkVM’s strengths. RISC0 and SP1 use configurations from their [`zkvm-perf`](https://github.com/succinctlabs/zkvm-perf) repository, while OpenVM uses settings from the [`openvm-reth-benchmark`](https://github.com/axiom-crypto/openvm-reth-benchmark) repository, enabling each to achieve its best possible CPU performance.
 
 ## Setup
 
@@ -24,3 +24,7 @@ git submodule update --init --recursive
 - To benchmark OpenVM, please follow instructions in [openvm/README](openvm/README.md)
 - To benchmark SP1, please follow instructions in [sp1/README](sp1/README.md)
 - To benchmark Pico, please follow instructions in [pico/README](pico/README.md)
+
+## Results
+The aforementioned process will result in the following performances for various zkVMs.
+
