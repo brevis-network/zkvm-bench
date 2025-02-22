@@ -2,14 +2,16 @@
 
 ## Prerequisites
 
-1. Install Rust:
+1. Setup as the main README.
+
+2. Install Rust:
 
    ```sh
    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
    rustup install nightly
    ```
 
-2. Install the [SP1 toolchain](https://docs.succinct.xyz/getting-started/install.html):
+3. Install the [SP1 toolchain](https://docs.succinct.xyz/getting-started/install.html):
 
    ```sh
    curl -L https://sp1.succinct.xyz | bash
@@ -18,9 +20,9 @@
    cargo prove --version
    ```
 
-3. Install [Go](https://go.dev/).
+4. Install [Go](https://go.dev/).
 
-4. Install [Docker](https://docs.docker.com/engine/install/ubuntu/).
+5. Install [Docker](https://docs.docker.com/engine/install/ubuntu/).
 
 
 ## Benchmark

@@ -1,14 +1,17 @@
 # RISC0 v1.2.1 Benchmarks
 
 ## Prerequisites
-1. Install Rust:
+
+1. Setup as the main README
+
+2. Install Rust:
 
    ```sh
    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
    rustup install nightly
    ```
 
-2. Install the [Risc0 toolchain](https://dev.risczero.com/api/zkvm/install):
+3. Install the [Risc0 toolchain](https://dev.risczero.com/api/zkvm/install):
 
    ```sh
    curl -L https://risczero.com/install | bash
