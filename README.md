@@ -26,5 +26,7 @@ git submodule update --init --recursive
 - To benchmark Pico, please follow instructions in [pico/README](pico/README.md)
 
 ## Results
-The aforementioned process will result in the following performances for various zkVMs.
+The aforementioned process will lead to ![these results](./results/result_full) for various zkVMs.
+
+
 
