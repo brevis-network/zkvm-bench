@@ -20,7 +20,7 @@ git submodule update --init --recursive
 
 ## Process
 
-- To benchmark RISC0, please follow instructions in xx
-- To benchmark OpenVM, please follow instructions in xx
-- To benchmark SP1, please follow instructions in xx
-- To benchmark Pico, please follow instructions in xx
+- To benchmark RISC0, please follow instructions in [risc0/README](risc0/README.md)
+- To benchmark OpenVM, please follow instructions in [openvm/README](openvm/README.md)
+- To benchmark SP1, please follow instructions in [sp1/README](sp1/README.md)
+- To benchmark Pico, please follow instructions in [pico/README](pico/README.md)

@@ -4,8 +4,7 @@
 	branch = zkvm-bench
 [submodule "pico/pico"]
 	path = pico/pico
-  # TODO: replace with public pico repo
-	url = git@github.com:brevis-network/brevis-vm.git
+	url = https://github.com/brevis-network/pico.git
 [submodule "sp1/zkvm-perf"]
 	path = sp1/zkvm-perf
 	url = https://github.com/brevis-network/zkvm-perf.git
