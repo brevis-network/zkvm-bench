@@ -2,7 +2,7 @@
 
 This repository provides instructions for benchmarking four zkVMs: RISC0, OpenVM, SP1, and Pico.
 
-Our initial benchmarks -— detailed in our [blog post](https://blog.brevis.network/2025/02/11/introducing-pico-a-modular-and-performant-zkvm/) -- compare all zkVMs under identical conditions: the same hardware (r7a.x48large), the same Rust program, and execution without compiler acceleration or custom parameters. This ensures a fair, apple-to-apple comparison, including for Pico.
+Our initial benchmarks - detailed in our [blog post](https://blog.brevis.network/2025/02/11/introducing-pico-a-modular-and-performant-zkvm/) - compare all zkVMs under identical conditions: the same hardware (r7a.x48large), the same Rust program, and execution without compiler acceleration or custom parameters. This ensures a fair, apple-to-apple comparison, including for Pico.
 
 Recognizing that teams may favor optimized settings, we also provide benchmarks tuned to each zkVM’s strengths. RISC0 and SP1 use configurations from their [`zkvm-perf`](https://github.com/succinctlabs/zkvm-perf) repository, while OpenVM uses settings from the [`openvm-reth-benchmark`](https://github.com/axiom-crypto/openvm-reth-benchmark) repository, enabling each to achieve its best possible CPU performance.
 
