@@ -1,4 +1,4 @@
-# SP1 v4.0.1 Benchmarks
+# SP1 v4.1.7 Benchmarks
 
 ## Prerequisites
 
