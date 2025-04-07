@@ -1,4 +1,4 @@
-# RISC0 v1.2.1 Benchmarks
+# RISC0 v2.0.1 Benchmarks
 
 ## Prerequisites
 
