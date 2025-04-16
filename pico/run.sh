@@ -9,13 +9,14 @@ export SPLIT_THRESHOLD=1048576
 export RUST_LOG=info
 export RUSTFLAGS="-C target-cpu=native -C target-feature=+avx512f,+avx512ifma,+avx512vl"
 export JEMALLOC_SYS_WITH_MALLOC_CONF="retain:true,background_thread:true,metadata_thp:always,dirty_decay_ms:-1,muzzy_decay_ms:-1,abort_conf:true"
+export VK_VERIFICATION=true
 
 PROGRAMS=("fibonacci-300kn" "tendermint" "reth-17106222" "reth-20528709")
 
 pushd pico
 for prog in "${PROGRAMS[@]}"; do
   echo "Benchmarking $prog"
-  cargo run --profile perf --bin bench --features jemalloc --features nightly-features -- --programs $prog --field kb_vk >../../logs/pico-$prog.log
+  cargo run --profile perf --bin bench --features jemalloc --features nightly-features -- --programs $prog --field kb >../../logs/pico-$prog.log
 done
 popd
 
