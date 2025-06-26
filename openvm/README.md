@@ -6,7 +6,7 @@
 
 2. Install [Rust](https://www.rust-lang.org/tools/install).
 
-3. Install cargo-openvm CLI by `cargo install --git 'http://github.com/openvm-org/openvm.git' --tag v1.0.0-rc.1 cargo-openvm`.
+3. Install cargo-openvm CLI by `cargo install --git 'http://github.com/openvm-org/openvm.git' --tag v1.2.1-rc.0 cargo-openvm`.
 
 4. Run `download_trusted_setup.sh` to download trusted setup files.
 
